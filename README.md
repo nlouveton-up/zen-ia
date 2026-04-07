@@ -13,7 +13,7 @@ Le texte est disponible :
 J'utilise le fichier LaTeX comme fichier source. Il est compilé via `pdflatex`. J'utilise pandoc pour générer la version HTML :
 
 ```{bash}
-pandoc zen-ia.tex -s -c tufte.css -o ia-zen.htm
+pandoc zen-ia.tex -s -c tufte.css -o zen-ia.htm
 ```
 
 # Crédit
