@@ -16,6 +16,12 @@ J'utilise le fichier LaTeX comme fichier source. Il est compilé via `pdflatex`.
 pandoc zen-ia.tex -s -c tufte.css -o zen-ia.htm
 ```
 
+Les deux formats peuvent être produits en une seule commande (bash) :
+
+```{bash}
+./build.sh
+```
+
 # Crédit
 
 - [PEP 20](https://peps.python.org/pep-0020/)
